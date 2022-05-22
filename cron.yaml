@@ -1,6 +1,5 @@
 cron: 
 -description: health check
  url: /tasks/check_health
- target: api
+ target: tasks
  schedule: every 60 minutes
-
