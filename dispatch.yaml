@@ -1,0 +1,10 @@
+dispatch:
+
+- url: "*/.*"
+  service: default
+
+- url: "*/api*"
+  service: api
+
+- url: "*/tasks*"
+  service: tasks

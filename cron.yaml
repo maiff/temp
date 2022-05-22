@@ -1,0 +1,6 @@
+cron: 
+-description: health check
+ url: /tasks/check_health
+ target: api
+ schedule: every 60 minutes
+
