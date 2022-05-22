@@ -6,8 +6,6 @@ from google.cloud import datastore
 from google.cloud import vision
 import logging
 
-from sympy import re 
-
 app = Flask(__name__)
 CLOUD_STORAGE_BUCKET = "final-project-123" 
 
@@ -36,4 +34,4 @@ def upload():
   return blob.public_url
 
 if __name__ == '__main__':
-  app.run(debug=True, port=4000)
+  app.run(debug=True, port=8080)
