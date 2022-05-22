@@ -7,7 +7,7 @@ from mailjet_rest import Client
 import os
 import requests
 
-url = "/api/health"
+url = "https://api-dot-final-project-123-350902.uc.r.appspot.com/api/health"
 
 api_key = '030561d0b18ee8414deb568c5cb08e85'
 api_secret = '1f754876829407ca3e6aecdfb9410e9c'
